@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //Routes
-app.use('/api', require('./js/list'));
+app.use('/api', require('./routes/api'));
 
 app.listen(5000);
-console.log('api tourne toutes les 5sec')
+console.log('api change toutes les a 5sec')
